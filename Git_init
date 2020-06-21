@@ -1,1 +1,59 @@
+基本信息设置
+1.设置用户名
+git config --global user.name 'fangyinjie8939242'
 
+2.设置用户名邮箱
+git config --global user.email '1102941968@QQ.com'
+
+初始化一个新的Git仓库
+1.新建文件夹
+mkdir xxx
+
+2.在文件在初始化git
+cd xxx
+git init
+（生成.git文件）
+
+向仓库提交文件
+1.touch xxx.xxx
+(touch 已经存在文件)
+2.Initial commit
+3.git add xxx.xx
+(添加到暂存区域)
+git status
+(验证)
+5.git commit -m 'xxx.xx'
+(从暂存区添加到仓库)
+git status
+(验证)
+
+修改仓库
+1.vi xxx.xx
+(修改文件)
+2.git add xxx.xx
+(添加到暂存区)
+3.t commit -m '说明......'
+（提价到仓库）
+4.git status
+（验证）
+
+删除文件
+1.rm xxx.xx
+删除本地
+2.git rm xxx.xx
+删除暂存区
+3.git commit -m '说明......'
+提交到仓库
+
+二.远程仓库
+作用 ：备份，实现远程共享，集中化管理。
+git push
+(递交到远程，很简单)
+
+git 克隆操作
+
+目的：将远程仓库复制到本地个
+git clone '网络地址'
+
+验证是否成功
+git config --list
