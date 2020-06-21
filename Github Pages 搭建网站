@@ -1,0 +1,11 @@
+访问：https://用户名.github.io
+搭建步骤：
+1）创建个人站点  －>  新建仓库（注：仓库名必须是［用户名.github.io］）
+2)在仓库下新建index.html的文件即可，作为网站首页（唯一文件）
+
+Project Pages 项目站点
+访问：https://用户名.github.io／仓库名
+
+搭建步骤
+1）进入项目主页，点击setting
+2）进入setting界面，点击［］，来自动生成主题页面。
