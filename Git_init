@@ -1,4 +1,4 @@
-基本信息设置
+﻿基本信息设置
 1.设置用户名
 git config --global user.name 'fangyinjie8939242'
 
@@ -53,7 +53,8 @@ git push
 git 克隆操作
 
 目的：将远程仓库复制到本地个
-git clone '网络地址'
+git clone 网络地址
+网站地址可在github官网的clone找到，直接复制粘贴即可
 
 验证是否成功
 git config --list
