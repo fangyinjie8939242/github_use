@@ -1,4 +1,28 @@
-﻿基本信息设置
+﻿概念解释
+Repository	仓库
+（用来存放项目代码，每个项目对应一个仓库，多个项目对应多个仓库）。
+star		收藏
+收藏项目，方便下次查看。
+Fock		复制克隆项目
+
+Pull Rquest	发起请求
+修改他人代码的时候需要向主人发起请求
+Watch		关注
+关注某人的动态
+issue		事务卡片
+求助的方式
+
+Github主页
+仓库主页
+个人主页		
+sign up		注册
+sign in		登陆
+
+用户名：fangyinjie8939242
+密  码：fyj8939242
+
+
+基本信息设置
 1.设置用户名
 git config --global user.name 'fangyinjie8939242'
 
@@ -58,3 +82,4 @@ git clone 网络地址
 
 验证是否成功
 git config --list
+
